@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 50px;
+}
+
+.container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#searchRoll {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+input, button {
+  padding: 16px;
+}
+
+button {
+  grid-column: span 3;
+  background: skyblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 20px;
+  text-align: center;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+.edit {
+  background: orange;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
